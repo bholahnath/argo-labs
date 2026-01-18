@@ -4,5 +4,4 @@ resources:
 - rollout.yml
 - service.yml
 - service-preview.yml
-- dashboard-deploy.yml
-- dashboard-service.yml
+
