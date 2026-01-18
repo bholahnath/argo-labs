@@ -20,6 +20,8 @@ spec:
           - dashboard
           - --port
           - "3100"
+          - --address
+          - "0.0.0.0"
         ports:
           - containerPort: 3100
 
