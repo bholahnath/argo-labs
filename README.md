@@ -1,2 +1,2 @@
-# vote-deploy
-Kubernetes Deployment Code for Vote App
+# library-deploy
+Kubernetes Deployment Code for Library
