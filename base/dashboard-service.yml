@@ -10,5 +10,5 @@ spec:
   ports:
     - port: 3100
       targetPort: 3100
-      nodePort: 32010
+      nodePort: 32020
 
