@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: dashboard
-        image: argoproj/argo-rollouts-dashboard:v1.6.5
+        image: argoproj/argo-rollouts-dashboard:v1.6.5  # <-- stable tag
         ports:
         - containerPort: 3100
 
