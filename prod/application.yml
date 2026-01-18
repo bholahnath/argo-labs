@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: vote-staging
+  name: vote-prod
   namespace: argocd
 spec:
   destination:
@@ -9,9 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: instavote
   source:
-    path: staging
+    path: prod
     repoURL: https://github.com/bholahnath/argo-labs.git
-    targetRevision: main
+    targetRevision: release
   syncPolicy:
     automated:
       enabled: true
