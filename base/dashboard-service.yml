@@ -6,9 +6,10 @@ metadata:
 spec:
   selector:
     app: argo-rollouts-dashboard
+  type: NodePort  # Changed from ClusterIP to NodePort
   ports:
     - protocol: TCP
-      port: 80        
-      targetPort: 3100 
-  type: ClusterIP 
+      port: 80         # The port inside the cluster
+      targetPort: 3100 # The port the pod exposes
+      nodePort: 30080
 
